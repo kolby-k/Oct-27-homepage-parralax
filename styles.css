@@ -20,8 +20,8 @@ nav {
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
 }
 
@@ -29,18 +29,18 @@ nav {
     list-style: none;
     display: inline-flex;
     gap: 1rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 .nav-link {
-    font-size: 2rem;
+    font-size: 1rem;
     color: white;
     padding: 1rem;
     text-decoration: none;
 }
 
 .nav-link:hover {
-    font-size: 2rem;
+    font-size: 1rem;
     color: white;
     background-color: rgb(54, 0, 161);
     padding: 1rem;
