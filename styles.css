@@ -28,8 +28,8 @@ nav {
 .navmenu {
     list-style: none;
     display: inline-flex;
-    gap: 1.5rem;
-    margin-right: 5rem;
+    gap: 1rem;
+    margin-right: 2rem;
 }
 
 .nav-link {
@@ -120,24 +120,24 @@ z-index: -1;
     position: absolute;
     left: 5rem;
     transform: translateZ(-2px) scale(1.25);
-    font-size: 10rem;
+    font-size: 3rem;
     color: white;
     text-shadow: 0 0 35px rgb(210, 210, 210);
 }
 
 .inline-heading {
-    font-size: 8rem;
+    font-size: 2rem;
 }
 
 h2 {
-    font-size: 6rem;
+    font-size: 3rem;
     color: white;
     text-shadow: 0 0 30px rgb(161, 161, 161);
     text-align: center;
 }
 
 p {
-    font-size: 4rem;
+    font-size: 2rem;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 3rem;
     margin-bottom: 10rem;
