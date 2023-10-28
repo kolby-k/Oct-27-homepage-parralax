@@ -130,14 +130,14 @@ z-index: -1;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     text-shadow: 0 0 30px rgb(161, 161, 161);
     text-align: center;
 }
 
 p {
-    font-size: 2rem;
+    font-size: 1rem;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 3rem;
     margin-bottom: 10rem;
