@@ -1,0 +1,115 @@
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Example of a modern, clean font */
+    font-size: 0.8rem;
+    position: absolute;
+    color: #000; /* Or any color that fits the design */
+    z-index: 1;
+    top: calc(5% - 25px);
+    left: calc(5% - 25px);
+    background: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.title2 {
+    transition: opacity 0.5s ease-out; /* Transition for the opacity */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/* Example of a modern, clean font */
+    font-size: 0.8rem;
+    font-style: italic;
+    position: absolute;
+    color: #fff; /* Or any color that fits the design */
+    z-index: 1;
+    top: calc(5% - 25px);
+    right: calc(5% + 25px);
+}
+
+.subheading {
+    display: block;
+}
+
+.fade-out {
+    opacity: 0; /* Fully transparent */
+    pointer-events: none; /* Prevents click on the element after it is hidden */
+  }
+
+
+/* FRONTEND SECTION */
+
+.frontendSkills {
+    font-size: 1.75rem;
+}
+.heroTextL {
+    font-family: 'Arial','Open Sans', sans-serif; /* Example of a modern, clean font */
+    position: absolute;
+    top: calc(10% - 20px);
+    left: calc(15% - 35px);
+    color: #000; /* Or any color that fits the design */
+    z-index: 1; /* Ensures that it's above the background but below interactive elements */
+}
+
+.frontendPL {
+    font-family: 'Arial','Open Sans', sans-serif;
+    font-size: 1rem; /* Example of a modern, clean font */
+    position: absolute;
+    top: calc(65% - 20px);
+    right: calc(5% + 35px);
+    color: #000; /* Or any color that fits the design */
+    z-index: 1;
+    background: hsla(0,0,0,1);
+}
+
+
+/* BACKEND SECTION */
+.backendSkills {
+    font-size: 1.75rem;
+}
+.heroTextR {
+    font-family: 'Robot','Source Code Pro', monospace; /* Example of a monospaced font */
+    position: absolute;
+    top: calc(10% - 20px);
+    right: calc(15% - 35px);
+    color: #fff; /* Or any color that fits the design */
+    z-index: 1; /* Ensures that it's above the background but below interactive elements */
+}
+
+.backendPL {
+    font-family: 'Robot','Source Code Pro', monospace; /* Example of a monospaced font */
+    position: absolute;
+    top: calc(65% - 20px);
+    left: calc(15% - 35px);
+    color: #fff; /* Or any color that fits the design */
+    z-index: 1; /* Ensures that it's above the background but below interactive elements */
+}
+
+
+/* SLIDER BELOW */
+.slider.slider-hidden {
+    opacity: 0; /* Start fully transparent */
+  }
+  
+  .slider {
+    transition: opacity 0.5s ease-in; /* Transition for the opacity */
+    position: absolute;
+    cursor: ew-resize;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    opacity: 0.8; /* End with this opacity */
+    border-radius: 50%;
+    top: calc(50% - 20px);
+    left: calc(50% - 30px);
+  }
+  
+  .slider::after {
+    content: url("images/icon/arrow.png");
+    display: inline-block;
+  }
+  
