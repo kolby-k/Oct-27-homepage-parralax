@@ -1,61 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio: Kolby K</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-    <nav>
-        <a href="/"><img src="./images/logo-space.png" alt="logo" class="logo"></a>
-        <ul class="navmenu">
-            <li>
-                <a class="nav-link" href="./home.html">Home</a>
-            </li>
-            <li>
-                <a class="nav-link" href="#frontend">Frontend</a>
-            </li>
-            <li>
-                <a class="nav-link" href="#backend">Backend</a>
-            </li>
-            <li>
-                <a class="nav-link" href="#kolbyfun">Kolby.fun</a>
-            </li>
-            <li>
-                <a class="nav-link" href="#contact">Contact</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="wrapper">
-        <header>
-            <img src="./images/background-space(1).jpg" alt="space background" class="background" />
-            <img src="./images/stars.png" alt="stars" class="stars" />
-            <img src="./images/earth1.png" alt="earth in space" class="earth" />
-
-            <img src="./images/astronaut.png" alt="astronaut in space" class="astronaut" />
-            <img src="./images/milkyway.png" alt="milkyway" class="milkyway" />
-            </span>
-        </header>
-        <section class="frontend-developer">
-            <h2 id="frontend">Frontend Developer</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla a dolores impedit, consequuntur ducimus, quas ex aut incidunt, autem consectetur quisquam maxime ullam expedita dicta quos minima modi exercitationem sint.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla a dolores impedit, consequuntur ducimus, quas ex aut incidunt, autem consectetur quisquam maxime ullam expedita dicta quos minima modi exercitationem sint.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla a dolores impedit, consequuntur ducimus, quas ex aut incidunt, autem consectetur quisquam maxime ullam expedita dicta quos minima modi exercitationem sint.</p>
-        </section>
-            <br class="break"/>
-        <section class="backend-developer">
-            <h2 id="backend">Backend Developer</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla a dolores impedit, consequuntur ducimus, quas ex aut incidunt, autem consectetur quisquam maxime ullam expedita dicta quos minima modi exercitationem sint.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla a dolores impedit, consequuntur ducimus, quas ex aut incidunt, autem consectetur quisquam maxime ullam expedita dicta quos minima modi exercitationem sint.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla a dolores impedit, consequuntur ducimus, quas ex aut incidunt, autem consectetur quisquam maxime ullam expedita dicta quos minima modi exercitationem sint.</p>
-        </section>
-            <br class="break"/>
-        <section class="kolby-fun">
-            <h2 id="kolbyfun">Kolby.fun</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla a dolores impedit, consequuntur ducimus, quas ex aut incidunt, autem consectetur quisquam maxime ullam expedita dicta quos minima modi exercitationem sint.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla a dolores impedit, consequuntur ducimus, quas ex aut incidunt, autem consectetur quisquam maxime ullam expedita dicta quos minima modi exercitationem sint.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla a dolores impedit, consequuntur ducimus, quas ex aut incidunt, autem consectetur quisquam maxime ullam expedita dicta quos minima modi exercitationem sint.</p>
-        </section>
-        <br class="break"/>
-        <section class="contact">
-            <h2 id="contact">Contact</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla a dolores impedit, consequuntur ducimus, quas ex aut incidunt, autem consectetur quisquam maxime ullam expedita dicta quos minima modi exercitationem sint.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla a dolores impedit, consequuntur ducimus, quas ex aut incidunt, autem consectetur quisquam maxime ullam expedita dicta quos minima modi exercitationem sint.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla a dolores impedit, consequuntur ducimus, quas ex aut incidunt, autem consectetur quisquam maxime ullam expedita dicta quos minima modi exercitationem sint.</p>
-        </section>
-    </div>
-</body>
+	<head>
+		<title>Kolby Fun</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="slider slider-hidden"></div>
+			<div class="grettingBar">
+			<a href="https://github.com/kolby-k"><h1 class="title">Hey! I'm Kolby, a fullstack developer.</h1></a>
+			<a href="./portfolio.html">
+				<h1 class="title3">Portfolio</h1>
+			</a>
+			</div>
+			<h1 class="title2" id="hideOnClick">Slide to see more</h1>
+			<h1 class="heroTextL">Frontend</h1>
+            <section class="frontendPL">
+				<div class="skillContainerF">
+                <h2 class="frontendL">HTML</h2>
+                <h2 class="frontendL">CSS</h2>
+                <h2 class="frontendL">JavaScript
+				<h2 class="frontendL">React</h2>
+				<h2 class="frontendL">Redux</h2>
+				</div>
+			</section>
+			<h1 class="heroTextR">Backend</h1>
+            <section class="backendPL">
+				<div class="skillContainerB">
+                <h2 class="backendL">Python</h2>
+                <h2 class="backendL">SQL</h2>
+				<h2 class="backendL">Node.js</h2>
+				<h2 class="backendL">Express</h2>
+				<h2 class="backendL">Git</h2>
+				</div>
+			</section>
+		</div>
+		<script type="importmap">
+			{
+				"imports": {
+					"three": "../build/three.module.js",
+					"three/addons/": "./jsm/"
+				}
+			}
+		</script>
+		<script src="index.js" type="module"></script>
+	</body>
 </html>
